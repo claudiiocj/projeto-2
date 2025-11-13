@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPSZone - Portal de Informações sobre Jogos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Ícones -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">FPSZone</div>
+    <ul class="nav-links">
+      <li><a href="#games">Jogos</a></li>
+      <li><a href="#tips">Dicas</a></li>
+      <li><a href="#curiosities">Curiosidades</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>FPSZone</h1>
+    <p>Seu portal de informações sobre jogos FPS</p>
+  </header>
+
+  <!-- Jogos em Destaque -->
+  <section id="games" class="games">
+    <h2>Jogos em Destaque</h2>
+    
+    <div class="game">
+      <div class="game-img">
+        <img src="img/bg.header.avif" alt="Valorant">
+      </div>
+      <div class="game-info">
+        <h3>Valorant</h3>
+        <p>Jogo de tiro tático 5v5 da Riot Games com personagens com habilidades únicas.</p>
+        <a href="jogos/valorant.html" class="btn">Ver Detalhes</a>
+      </div>
+    </div>
+    
+    <div class="game">
+      <div class="game-img">
+        <img src="img/csgo.jpeg" alt="CS:GO">
+      </div>
+      <div class="game-info">
+        <h3>CS:GO</h3>
+        <p>Counter-Strike 2, evolução do clássico jogo de tiro tático da Valve.</p>
+        <a href="jogos/cs2.html" class="btn">Ver Detalhes</a>
+      </div>
+    </div>
+    
+    <div class="game">
+      <div class="game-img">
+        <img src="img/warface.jpeg" alt="Warface">
+      </div>
+      <div class="game-info">
+        <h3>Warface</h3>
+        <p>Jogo de tiro online free-to-play com vários modos e classes diferentes.</p>
+        <a href="jogos/warface.html" class="btn">Ver Detalhes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dicas -->
+  <section id="tips" class="tips">
+    <h2>Dicas para Melhorar seu Jogo</h2>
+    <div class="tips-container">
+      <div class="tip-card">
+        <i class="ri-crosshair-line"></i>
+        <h3>Melhore sua Mira</h3>
+        <p>Pratique em mapas de treino para aumentar sua precisão e reflexo.</p>
+      </div>
+      <div class="tip-card">
+        <i class="ri-team-line"></i>
+        <h3>Estratégia em Equipe</h3>
+        <p>Jogue junto com sua equipe e use comunicação eficiente.</p>
+      </div>
+      <div class="tip-card">
+        <i class="ri-map-pin-line"></i>
+        <h3>Conheça os Mapas</h3>
+        <p>Dominar os pontos estratégicos dos mapas é essencial para vencer.</p>
+      </div>
+      <div class="tip-card">
+        <i class="ri-settings-3-line"></i>
+        <h3>Otimize Configurações</h3>
+        <p>Ajuste gráficos e sensibilidade para maximizar desempenho.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosities" class="curiosities">
+    <h2>Curiosidades</h2>
+    <div class="curiosities-container">
+      <div class="curiosity-card">
+        <h3>Valorant</h3>
+        <p>O nome do projeto antes do lançamento era “Project A”.</p>
+      </div>
+      <div class="curiosity-card">
+        <h3>CS:GO</h3>
+        <p>CS nasceu como um mod de Half-Life em 1999.</p>
+      </div>
+      <div class="curiosity-card">
+        <h3>Warface</h3>
+        <p>Foi desenvolvido pela Crytek, mesma criadora de Crysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="contact">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>FPSZone &copy; 2023</p>
+  </footer>
+</body>
+</html>
